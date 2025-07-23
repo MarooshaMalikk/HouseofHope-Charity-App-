@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "429145076753",
+    "project_id": "houseofhope-df698",
+    "storage_bucket": "houseofhope-df698.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429145076753:android:f9d0ab8daed5dbe4c9edb0",
+        "android_client_info": {
+          "package_name": "com.example.houseofhope"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx2BOh4jXdRq7z5uOjL5i0o2syEE_EE-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
