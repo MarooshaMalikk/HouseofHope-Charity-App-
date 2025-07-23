@@ -1,16 +1,63 @@
-# houseofhope
+# House of Hope Charity App 🌟
 
-A new Flutter project.
+The **House of Hope Charity App** is a mobile application built in Flutter that connects **donors** with **underprivileged students** in need of support. It also includes a built-in **admin panel** for managing users and requests — all inside the app!
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 👤 User Roles:
+- **Donor**:
+    - Register/Login
+    - View student requests
+    - Make donations
+    - Track donation history
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Needy Student**:
+    - Register/Login
+    - Submit help request
+    - Edit profile
+    - View donation status
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Admin** (inside the app):
+    - Review student requests
+    - Approve/Reject applications
+    - View all user activity
+
+---
+
+## 📱 App Pages
+
+- Sign Up (username, email, phone, password, Google sign-in)
+- Login Page
+- Welcome Screen (Choose: I'm a Donor / I'm a Needy Student)
+- View & Edit Profile
+- Make a Donation
+- Donation History
+- Admin Panel (Student Requests Management)
+
+---
+
+## 🛠️ Technologies Used
+
+- **Flutter** – Cross-platform UI development
+- **Dart** – Application logic
+- **Firebase – (If used for backend & database, mention accordingly)
+
+---
+
+## 📂 Project Structure
+
+```bash
+houseofhope/
+│
+├── lib/                # Flutter source code
+│   ├── screens/        # All screens including Admin Panel
+│   ├── widgets/        # Reusable UI components
+│   ├── models/         # Data models (User, Donation, etc.)
+│   └── main.dart       # App entry point
+│
+├── assets/             # App assets like images/icons
+├── pubspec.yaml        # Dependencies and assets config
+└── README.md           # Project documentation
+
